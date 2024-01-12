@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple JS App</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light grey background */
+            font-family: Arial, sans-serif; /* Optional: Adds a nice font to your app */
+        }
+
+        #container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff; /* White background for the content area */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to your content area */
+        }
+
+        button {
+            background-color: #4CAF50; /* Green background for the button */
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Welcome to My JavaScript App</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button onclick="displayGreeting()">Greet Me!</button>
+       
